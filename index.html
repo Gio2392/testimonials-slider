@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  </head>
+  <body>
+    <main class="container">
+      
+        <div class="controls">
+          <div class="imgBx">
+            <img src="./images/image-tanya.jpg" class="slide active" alt="Tanya photo" />
+            <img src="./images/image-john.jpg" class="slide" alt="Tanya photo" />
+          </div>
+          <div class="controls__btn">
+            <button class="btn prev"><img src="./images/icon-prev.svg" alt=""></button>
+            <button class="btn next"><img src="./images/icon-next.svg" alt=""></button>
+          </div>
+        </div>
+
+      <div class="card">
+        <blockquote class="card__text active">
+          <p class="comment">
+            “ I’ve been interested in coding for a while but never taken the
+            jump, until now. I couldn’t recommend this course enough. I’m now in
+            the job of my dreams and so excited about the future. ”
+          </p>
+          <div class="author">
+            <p class="author__name">Tanya Sinclair</p>
+            <span>UX Engineer</span>
+          </div>
+        </blockquote>
+        <blockquote class="card__text">
+          <p class="comment">
+            “ If you want to lay the best foundation possible I’d recommend taking this course. 
+            The depth the instructors go into is incredible. I now feel so confident about 
+            starting up as a professional developer. ”
+          </p>
+          <div class="author">
+            <p class="author__name">John Tarkpor</p>
+            <span>Junior Front-end Developer</span>
+          </div>
+        </blockquote>
+      </div>
+    </main>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
