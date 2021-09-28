@@ -38,7 +38,7 @@ body {
     background-repeat: no-repeat;
     background-size: 40%, 35rem;
     background-position: 0% 100%, 50% 15%;
-    padding: 11.3rem 3rem 0;
+    padding: 11.3rem 3rem 10rem;
     
 }
 @media (min-width: 992px) {
