@@ -104,15 +104,18 @@ blockquote, p{
     }
 }
 /* CARD TEXT */
+.card{
+  max-width: 50rem;
+  margin: 5rem auto 0;
+}
 .card__text{
-    margin: 5rem auto 0;
     padding: 3rem 3.4rem;
     background-image: url(../images/pattern-quotes.svg);
     background-repeat: no-repeat;
     background-size: 6.5rem;
     background-position: center top;
     display: none;
-    max-width: 50rem;
+    
 }
 .card__text.active{
     display: block;
